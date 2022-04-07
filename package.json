@@ -1,6 +1,6 @@
 {
   "name": "@chief-a/generic-graphql-dataloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generic GraphQL dataloader for NestJS and TypeORM",
   "main": "helloworld.ts",
   "type": "module",
