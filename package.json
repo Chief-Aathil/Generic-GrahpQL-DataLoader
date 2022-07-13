@@ -1,10 +1,12 @@
 {
   "name": "@chief-a/generic-graphql-dataloader",
-  "version": "1.0.7",
+  "version": "1.0.20",
   "description": "Generic GraphQL dataloader for NestJS and TypeORM",
-  "main": "helloworld.js",
-  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prebuild": "rm -rf ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +24,9 @@
     "url": "https://github.com/Chief-Aathil/Generic-GrahpQL-DataLoader/issues"
   },
   "homepage": "https://github.com/Chief-Aathil/Generic-GrahpQL-DataLoader#readme",
-  "license": "ISC",
-  "dependencies": {}
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
